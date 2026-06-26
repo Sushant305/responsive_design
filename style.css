@@ -4,6 +4,11 @@
     padding: 0px;
     box-sizing:border-box;
 }
+:root{
+    --primary:#1ea7fd;
+    --secondary:#718096;
+    --front_style:"Style Script", cursive;;
+}
 /* Header styling */
 ul li{
     list-style-type: none;
@@ -36,7 +41,7 @@ button{
     border: none;
 }
 .logo p{
-    font-family:"Style Script", cursive;
+    font-family:var(--front_style);
     font-size:30px;
     font-weight:500;
     color:#333;
@@ -74,11 +79,11 @@ img{
     margin-bottom:20px;
 }
 .text-content span{
-    color:#1ea7fd;
+    color:var(--primary);
 }
 .text-content p{
     font-size:18px;
-    color:#718096;
+    color:var(--secondary);
 }
 .text-content button{
     margin-top:35px;
