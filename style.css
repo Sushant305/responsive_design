@@ -135,8 +135,8 @@ img{
 
     .main-section{
         flex-direction: row;
-        padding: 20px;
-        gap:20px;
+        padding: 10px;
+        gap:10px;
     }
     .text-content{
         width: 50%;
